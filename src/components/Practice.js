@@ -5,8 +5,11 @@ class Practice extends Component{
     render(){
         return(
             <div>
+                <h2>afd</h2>
+                
                 <h1 className="header" onClick={()=> this.setState({heading:"cool"})}>{this.state.heading}</h1>
             </div>
+
         )
     }
 }
